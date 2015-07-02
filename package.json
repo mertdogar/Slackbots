@@ -1,0 +1,48 @@
+{
+  "name": "slackbots",
+  "version": "0.2.0",
+  "description": "Simple API for Slack",
+  "main": "app.js",
+  "author": {
+    "name": "Mikhail Mokrushin",
+    "email": "mokrushin.ms@ya.ru"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint libs/*.js index.js && ./node_modules/jscs/bin/jscs libs/*.js index.js && ./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "extend": "^2.0.1",
+    "request": "^2.56.0",
+    "vow": "^0.4.9",
+    "ws": "^0.7.2"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.14.1"
+  },
+  "gitHead": "d11ee9ae926c4231a892a9d73ce9099c62c1a058",
+  "_id": "slackbots@0.2.0",
+  "_shasum": "f52822e29ea4a0a6d44534cef7b9c1a822d34141",
+  "_from": "slackbots@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "mishk0",
+    "email": "mokrushin.ms@ya.ru"
+  },
+  "maintainers": [
+    {
+      "name": "mishk0",
+      "email": "mokrushin.ms@ya.ru"
+    }
+  ],
+  "dist": {
+    "shasum": "f52822e29ea4a0a6d44534cef7b9c1a822d34141",
+    "tarball": "http://registry.npmjs.org/slackbots/-/slackbots-0.2.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/slackbots/-/slackbots-0.2.0.tgz"
+}
